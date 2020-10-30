@@ -1,0 +1,31 @@
+ /*disappearing circles*/
+ body{
+    font-family: sans-serif;
+}
+.circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    float: left;
+    margin: 50px;
+}
+#red-circle{
+    background-color:red;
+
+}
+#orange-circle{
+    background-color: orange;
+}
+#green-circle{
+    background-color: green;
+}
+#shape{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    display: none;
+    position: relative;
+}
+#bold{
+    font-weight: bold;
+}
